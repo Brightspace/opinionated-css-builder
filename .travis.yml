@@ -5,6 +5,8 @@ sudo: false
 deploy:
   provider: npm
   email: d2ltravisdeploy@d2l.com
+  api_key:
+    secure: XQLQNf6f1FgCJY9JUHyjaoPkqVB01Ocugs3awxaFau6f2aU/IEPQtTdDjTv7q31aXdc07JAGs+A65iyB4r1YWM0ILFahvMErJso8aQ6wsaYtVFozrE4NxOdb7ZISx1pshCSmDnUV+R3j5hAHlDdF1gi5GZAjB2iFvti3KaTr3iZ+ZKA0s3bIMy0f5WNjbWiEmzmRwWplFm+KKtCnvQHbIUakP4aZ3OnXz4TwGWbKacbVv8JI3lzQve9JHziXfQZnYhBPuIzoAGrFRC4j6Eg1PGveJV9FXbFHcJ4s2lsZ/Y/j9gDznRsxTV4V2OpX/7xJJtBhYsYViZfskdI9Hy/TSwtBIpgjX1mH+M8um2pV63q74+T870RcgizCUzT3a0pPruGtSL6miS1gHp7rFvvm6Ni1krLwoZbvo0QPruIRY5wAjxNDOwUvnoRr2Pp+j4izMYvSUV9eioHNRX16PqLOTluSeC71pomag9Yriws0AxUIyed5RB18cBcBNEv8ZWhMFG01/d6DEGr+YY9pDm8583xtCY6sWrlNWnB/NJht2Ca+QPM22wfxVyDYiBHbqeBfjU6roYelSV0thXLk4FPHM5vCwZM1vn6KpDpBVNZrOtSspuKAmAlOIjavU4wXl+lIhimNncdY4S/MjBfRWRAB6eM0hLrYFhofSy+/umpTKJU=
   on:
     tags: true
-    all_branches: true
+    repo: Brightspace/opinionated-css-builder
