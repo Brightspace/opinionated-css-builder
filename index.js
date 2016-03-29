@@ -43,7 +43,8 @@ var sassResult = sass.render({
     })
     .then(function( result ) {
       result.warnings().forEach( function( message ) {
-        console.log( message );
+        process.stderr.write( message );
+        process.stderr.write( "\n" );
       });
       process.stdout.write( result.css );
     });
