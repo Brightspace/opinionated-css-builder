@@ -2,8 +2,9 @@
   "name": "opinionated-css-builder",
   "version": "0.1.0",
   "description": "A packaged combination of css build tools",
+  "main": "index.js",
   "bin": {
-    "opinionated-css-builder": "./index.js"
+    "opinionated-css-builder": "cli.js"
   },
   "scripts": {
     "test": "exit 0"
