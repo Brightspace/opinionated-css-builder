@@ -1,6 +1,8 @@
 Opinionated CSS Builder
 =======================
 
+[![Build Status](https://travis-ci.org/Brightspace/opinionated-css-builder.svg?branch=master)](https://travis-ci.org/Brightspace/opinionated-css-builder)
+
 A packaged combination of css build tools
 
 Usage
