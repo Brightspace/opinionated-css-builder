@@ -2,14 +2,22 @@
   "name": "opinionated-css-builder",
   "version": "0.1.0",
   "description": "A packaged combination of css build tools",
-  "bin" {
+  "bin": {
     "opinionated-css-builder": "./index.js"
   },
   "scripts": {
     "test": "exit 0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brightspace/opinionated-css-builder.git"
+  },
   "author": "D2L Corporation",
   "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Brightspace/opinionated-css-builder/issues"
+  },
+  "homepage": "https://github.com/Brightspace/opinionated-css-builder",
   "dependencies": {
     "autoprefixer": "^6.3.5",
     "cssnano": "^3.5.2",
